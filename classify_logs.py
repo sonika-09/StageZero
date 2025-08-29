@@ -3,7 +3,7 @@
 import json
 
 LOGS_FILE = "../all_logs.json"
-MITRE_FILE = "../mitre_data/enterprise-attack.json"
+MITRE_FILE = "mitre_data/enterprise-attack.json"
 OUTPUT_FILE = "../classified_logs.json"
 
 # Load logs

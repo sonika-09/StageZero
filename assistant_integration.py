@@ -1,7 +1,7 @@
 from ibm_watsonxdata import DataClient
 
-API_KEY = "YOUR_WATSONX_API_KEY"
-URL = "YOUR_WATSONX_URL"
+API_KEY = "kwYkece0-5S2xaH1EawcAuGr5WEePEtNQILm6HqQFd4w"
+URL = "https://eu-de.ml.cloud.ibm.com"
 
 data_client = DataClient(api_key=API_KEY, url=URL)
 
