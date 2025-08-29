@@ -3,3 +3,5 @@ ibm-watsonxdata
 ibm-watsonx-ai
 requests
 pandas
+fastapi
+uvicorn

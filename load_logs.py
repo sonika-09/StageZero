@@ -3,11 +3,14 @@ import json
 import pandas as pd
 import glob
 import chardet
+import ibm_boto3
+from ibm_botocore.client import Config
 
 LOGS_DIR = "logs"  # path to your logs folder
-OUTPUT_FILE = "../all_logs.json"
+OUTPUT_FILE = os.path.join(os.getcwd(), "all_logs.json")
 
 all_logs = []
+output_path = os.path.join(os.getcwd(), "all_logs.json")
 
 def read_file(file_path):
     """Try multiple encodings to read a file."""
