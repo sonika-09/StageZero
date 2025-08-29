@@ -1,3 +1,5 @@
+# reads classified logs from a JSON file and 
+# uploads them as a dataset to IBM Watsonx Data
 import json
 from ibm_watsonxdata import DataClient
 

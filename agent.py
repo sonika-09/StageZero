@@ -1,3 +1,4 @@
+# is a log streaming agent that simulates real-time log ingestion.
 import requests
 import time
 import os

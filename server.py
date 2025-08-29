@@ -1,3 +1,5 @@
+# is a FastAPI server that exposes an endpoint to receive log entries, 
+# classify them based on simple rules, and return the classification.
 from fastapi import FastAPI, Request
 import uvicorn
 

@@ -1,3 +1,5 @@
+# centralizes all configuration values and client initializations 
+# for IBM Watsonx and Watson Assistant services.
 from ibm_watsonxdata import DataClient
 from ibm_watsonx_ai import AIClient
 from ibm_watson import AssistantV2

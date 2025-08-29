@@ -1,10 +1,8 @@
+# consolidates all log files into a single JSON file
 import os
 import json
 import pandas as pd
 import glob
-import chardet
-import ibm_boto3
-from ibm_botocore.client import Config
 
 LOGS_DIR = "logs"  # path to your logs folder
 OUTPUT_FILE = os.path.join(os.getcwd(), "all_logs.json")

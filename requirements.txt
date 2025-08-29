@@ -1,7 +1,8 @@
 #Run pip install -r requirements.txt to install the dependencies
-ibm-watsonxdata
-ibm-watsonx-ai
-requests
-pandas
-fastapi
-uvicorn
+ibm-watsonxdata>=1.0.0
+ibm-watsonx-ai>=1.0.0
+requests>=2.31.0
+pandas>=2.2.2
+fastapi>=0.110.2
+uvicorn>=0.29.0
+chardet>=5.2.0

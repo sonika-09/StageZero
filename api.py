@@ -1,3 +1,4 @@
+# serve classified logs locally.
 from fastapi import FastAPI
 import json
 import os

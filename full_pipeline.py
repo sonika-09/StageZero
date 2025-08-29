@@ -1,3 +1,6 @@
+# Load logs from files/folders, 
+# classify the logs (via a separate script), and
+# upload the classified logs to IBM Watsonx.
 import subprocess
 import json
 import chardet

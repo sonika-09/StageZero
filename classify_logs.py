@@ -1,3 +1,4 @@
+# classifies raw logs by matching log content against MITRE ATT&CK techniques.
 import os
 import json
 

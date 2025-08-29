@@ -1,3 +1,4 @@
+# retrieve relevant logs based on MITRE IDs.
 from ibm_watsonxdata import DataClient
 
 API_KEY = "kwYkece0-5S2xaH1EawcAuGr5WEePEtNQILm6HqQFd4w"
